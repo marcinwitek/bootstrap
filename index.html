@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MarcinWitek.com - Nauka bootstrap</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    <link href="css/responsive.css" rel="stylesheet" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+
+   <!-- Menu Główne -->
+
+  <header id="menu" class="navbar-fixed-top">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <nav class="navbar navbar-inverse" role="navigation" id="pasek_nawi">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#moje-menu">
+                                <span class="sr-only">Nawigacja</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div id="logo">
+                                <a class="navbar-brand" href="#"><img src="images/logo_biale.png" class="img-responsive" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="collapse navbar-collapse" id="moje-menu">
+                            <ul class="nav navbar-nav navbar-right" id="ul_nawigacja">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#harmonijka">lista</a></li>
+                                <li><a href="#onas">O nas</a></li>
+                                <li><a href="#zespol">Zespół</a></li>
+                                <li><a href="#projekty">Projekty</a></li>
+                                <li><a href="#jezyki_programowania">Narzędzia</a></li>
+                                <li><a href="#kontakt">Kontakt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Karuzela -->
+
+    <div id="pokaz-slajdow" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#pokaz-slajdow" data-slide-to="0" class="active"></li>
+            <li data-target="#pokaz-slajdow" data-slide-to="1"></li>
+            
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/slider/2.jpg" class="img-responsive" alt="">
+                <div class="carousel-caption">
+                    <h1>Do sukcesu nie ma żadnej windy</h1>
+                    <p>Trzeba iśc po schodach</p>
+                </div>
+            </div>
+            <div class="item">    
+                <img src="images/slider/3.jpg" class="img-responsive" alt="">
+                <div class="carousel-caption">
+                    <h1>Zawsze rzucaj siebie na głęboką wodę</h1>
+                    <p>Bo tam jest dalej od dna</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!--Harmonijka -->
+
+    <section  id="harmonijka">
+       <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2><span class="naglowek_czerwony">Języki</span> programowania</h2>
+                    <h4>Zapraszam do zapoznania się z językami programowania</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="panel-group" id="menu_rozwijane">
+                    <!-- nowosci element 1 -->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 panel nowosci_panel">
+                        <div class="panel-heading">
+                            <a href="#jezyk01" data-toggle="collapse" data-parent="#menu_rozwijane">
+                                <h3>PHP 5</h3>
+                                <h6>Super admin * Marcin Witek * Serpień 2015 <span class="glyphicon glyphicon-chevron-right"></span></h6>
+                            </a>
+                        </div>
+                        <div id="jezyk01" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+
+                      <!-- nowosci element 2 -->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 panel nowosci_panel">
+                        <div class="panel-heading">
+                            <a href="#jezyk02" data-toggle="collapse" data-parent="#menu_rozwijane">
+                                <h3>HTML 5</h3>
+                                <h6>Super admin * Marcin Witek * Serpień 2015 <span class="glyphicon glyphicon-chevron-right"></span></h6>
+                            </a>
+                        </div>
+                        <div id="jezyk02" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+
+                      <!-- nowosci element 3 -->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 panel nowosci_panel">
+                        <div class="panel-heading">
+                            <a href="#jezyk03" data-toggle="collapse" data-parent="#menu_rozwijane">
+                                <h3>CSS 3</h3>
+                                <h6>Super admin * Marcin Witek * Serpień 2015 <span class="glyphicon glyphicon-chevron-right"></span></h6>
+                            </a>
+                        </div>
+                        <div id="jezyk03" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <a href="#" class="btn btn-success btn-lg">zobacz wszystkie</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--O NAS -->
+
+    <hr>
+    <section id="onas">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onas_naglowek">
+
+                   <h2>Naszą pasją jest <strong>edukacja</strong></h2>
+                    <h4>Nauka ma być przyjemnością a nie przykrym obowiązkiem</h4> 
+                 </div>
+            </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                    <img src="images/icons/Mail.png" class="img-responsvie" alt="Wiadomosc">
+                    <h3>Informacje</h3>
+                    <p>Lorem Ipsum</p>
+                </div>
+            </div>
+        
+        
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                    <img src="images/icons/Map.png" class="img-responsvie" alt="Mapa">
+                    <h3>Ścieżki kariery</h3>
+                    <p>Lorem Ipsum</p>
+                </div>
+            </div>
+        
+        
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                    <img src="images/icons/Watches.png" class="img-responsvie" alt=>
+                    <h3>Liczy się czas</h3>
+                    <p>Lorem Ipsum</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!--Liczby -->
+
+    <section id="liczby">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <h3>Strona w Liczbach:
+                     <br/>Sam oceń</h3>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="liczby_kafelek">
+                        <h1>3</h2>
+                         <h5>Lorem</h5>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="liczby_kafelek">
+                        <h1>300</h1>
+                        <h5>Lorem Ipsum</h5>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="liczby_kafelek">
+                        <h1>1 000</h1>
+                        <h5>Lorem Ipsum</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--ZESPÓŁ-->
+    <hr>
+    <section id="zespol">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zespol_naglowek">
+
+                   <h2>Tajemnicą sukcesu jest zgrany zespół</h2>
+                    <h4>Nasz zespół tworzą profesjonaliści.</h4> 
+                 </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                   <ul class="nav nav-pills zespol_przyciski">
+                        <li class="active"><a href="#php" data-toggle="tab">PHP</a></li>
+                        <li><a href="#html5" data-toggle="tab">HTML 5</a></li>
+                        <li><a href="#css3" data-toggle="tab">CSS 3</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="tab-content zespol_ikonki">
+                    <div class="tab-pane fade in active" id="php">
+                       <div class="row">
+                            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6">
+                                <img src="images/php-developer.jpg" alt="" class="img-responsive img-rounded pull left">
+                            </div>
+                            <div class="col-xs-12 col-sm-7 col-md-7 col-lg-6">
+                                <h5>PHP 5</h5>
+                                <h3>W praktyce</h3>
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                    </p>
+                                <h2>
+                                    <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+                                    <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                                    <a href="#"><span class="glyphicon glyphicon-book"></span></a>
+                                    <a href="#"><span class="glyphicon glyphicon-picture"></span></a>
+                                </h2> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="html5">
+                       <div class="row">
+                            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6">
+                                <img src="images/html5.jpg" alt="" class="img-responsive img-rounded pull left">
+                            </div>
+                            <div class="col-xs-12 col-sm-7 col-md-7 col-lg-6">
+                                <h5>HTML 5</h5>
+                                <h3>W praktyce</h3>
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                    </p>
+                                <h2>
+                                    <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+                                    <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                                    <a href="#"><span class="glyphicon glyphicon-book"></span></a>
+                                    <a href="#"><span class="glyphicon glyphicon-picture"></span></a>
+                                </h2> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="css3">
+                       <div class="row">
+                            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6">
+                                <img src="images/css3.jpg" alt="" class="img-responsive img-rounded pull left">
+                            </div>
+                            <div class="col-xs-12 col-sm-7 col-md-7 col-lg-6">
+                                <h5>CSS3</h5>
+                                <h3>W praktyce</h3>
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                    </p>
+                                <h2>
+                                    <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+                                    <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                                    <a href="#"><span class="glyphicon glyphicon-book"></span></a>
+                                    <a href="#"><span class="glyphicon glyphicon-picture"></span></a>
+                                </h2> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </section> 
+    <!-- wspolpracownicy -->
+    <hr>
+    <section id="wspolpracownicy">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wspolpracownicy_naglowek">
+                    <h2>Współpracownicy</h2>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#"><img src="images/gosc.jpg" alt="MarcinWitek" class="img-responsive img-circle wspolpracownicy_foto"></a>
+                    <h3>Marcin Witek</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h2>
+                        <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                    </h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#"><img src="images/gosc.jpg" alt="MarcinWitek" class="img-responsive img-circle wspolpracownicy_foto"></a>
+                    <h3>Marcin Witek</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h2>
+                        <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                    </h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#"><img src="images/gosc.jpg" alt="MarcinWitek" class="img-responsive img-circle wspolpracownicy_foto"></a>
+                    <h3>Marcin Witek</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h2>
+                        <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                    </h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#"><img src="images/gosc.jpg" alt="MarcinWitek" class="img-responsive img-circle wspolpracownicy_foto"></a>
+                    <h3>Marcin Witek</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h2>
+                        <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Projekty-->
+
+    <hr>
+    <section id="projekty">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 projekty_naglowek">
+
+                   <h2>Wykonane projekty</h2>
+                    <h4>Nasz zespół tworzą profesjonaliści.</h4> 
+                 </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 projekty_zdjecia">
+                    <a href="#projekt1" data-toggle="modal"><img src="images/projekty/kurs_1_min.jpg" alt="Projekt1" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 projekty_zdjecia">
+                    <a href="#projekt2" data-toggle="modal"><img src="images/projekty/kurs_2_min.jpg" alt="Projekt2" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 projekty_zdjecia">
+                    <a href="#projekt3" data-toggle="modal"><img src="images/projekty/kurs_3_min.jpg" alt="Projekt3" class="img-responsive img-rounded"></a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 projekty_zdjecia">
+                    <a href="#projekt4" data-toggle="modal"><img src="images/projekty/kurs_4_min.jpg" alt="Projekt4" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 projekty_zdjecia">
+                    <a href="#projekt5" data-toggle="modal"><img src="images/projekty/kurs_5_min.jpg" alt="Projekt5" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 projekty_zdjecia">
+                    <a href="#projekt6" data-toggle="modal"><img src="images/projekty/kurs_6_min.jpg" alt="Projekt6" class="img-responsive img-rounded"></a>
+                </div>
+
+               
+            </div>
+        </div>
+
+    </section>
+
+   
+
+    
+    
+    <!-- Języki programowania-->
+
+    <hr>
+    <section id="jezyki_programowania">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                   <h2>Języki Programowania</h2>
+                    <h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h4> 
+                 </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+                    <img src="images/klient_logo_01.png" alt"" class="img-responsive">
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+                    <img src="images/klient_logo_02.png" alt"" class="img-responsive">
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+                    <img src="images/klient_logo_03.png" alt"" class="img-responsive">
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+                    <img src="images/klient_logo_04.png" alt"" class="img-responsive">
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+                    <img src="images/klient_logo_05.png" alt"" class="img-responsive">
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+                    <img src="images/klient_logo_06.png" alt"" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--KONTAKT-->
+
+    <hr>
+    <section id="kontakt">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2>Kontakt</h2>
+                    
+                 </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <h5>Masz pytania</h5>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <h5>Nasze Adres:</h5>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <h5>Zadzwoń !</h5>
+                    <h2>782 300 727</h2>
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="uzytkownik" class="control-label">Imię i nazwisko</label>
+                            <input type="text" class="form-control" name="uzytkownik" placeholder="Imię i nazwisko"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="control-label">Email:</label>
+                            <input type="text" class="form-control" name="email" placeholder="adres email: marcin@mój_serwer.pl"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="uwagi" class="control-label">Wiadomość:</label>
+                            <textarea type="text" class="form-control" name="uwagi" rows="8" title="Dziękuje za wiadomość" data-toggle="tooltip" data-placement="top" ></textarea> 
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success btn-lg">Wyślij</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--STOPKA-->
+    <hr>
+    <section id="stopka">
+        <div class="container">
+            <footer class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <h4>Copyright 2015 &copy MarcinWitek.com</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img href="#"><img src="images/icons/facebook.png" alt="" class="img-responsive">
+                    <img href="#"><img src="images/icons/googleplus.png" alt="" class="img-responsive">
+                    <img href="#"><img src="images/icons/twitter.png" alt="" class="img-responsive">
+                    <img href="#"><img src="images/icons/vimeo.png" alt="" class="img-responsive">
+                </div>
+            </footer>
+        </div>
+
+
+    
+
+    <!--- Tekst do wyswietlenia które są w oknach modalnych -->
+        <!-- Projekt 1 -->
+     <div id="projekt1" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3>Projekt - Sklep internetowy Arsenal [praca inż]</h3>
+                </div>
+                <div class="modal-body">
+                        <img src="images/projekty/kurs_1.jpg" alt="" class="img-responsive">
+                    
+                    
+                        <p>
+                            <br/>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Zamknij</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+      <!-- Projekt 2 -->
+     <div id="projekt2" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3>Zakodowanie sklepu internetowego</h3>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <img src="images/projekty/kurs_2.jpg" alt="" class="img-responsive">
+                        <br/>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Zamknij</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Projekt 3 -->
+     <div id="projekt3" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3>Adrian Bialek - strona o portfolio </h3>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <img src="images/projekty/kurs_3.jpg" alt="" class="img-responsive">
+                        <br/>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Zamknij</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Projekt 3 -->
+     <div id="projekt3" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3>Adrian Bialek - strona o portfolio </h3>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <img src="images/projekty/kurs_3.jpg" alt="" class="img-responsive">
+                        <br/>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Zamknij</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Projekt 4 -->
+     <div id="projekt4" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3>Lorem </h3>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <img src="images/projekty/kurs_4.jpg" alt="" class="img-responsive">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Zamknij</button>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- Projekt 5 -->
+     <div id="projekt5" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3>Lorem </h3>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <img src="images/projekty/kurs_5.jpg" alt="" class="img-responsive">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Zamknij</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Projekt 6 -->
+     <div id="projekt6" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3>Lorem </h3>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <img src="images/projekty/kurs_6.jpg" alt="" class="img-responsive">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Zamknij</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- JavaScript  -->
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/wlasny.js"></script>
+
+    <script>
+        $("textarea").tooltip();
+    </script>
+  </body>
+</html>
