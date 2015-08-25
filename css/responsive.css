@@ -43,5 +43,11 @@
 	#jezyki_programowania{
 		height: 50rem;
 	}
+	#logo{
+		width:50%;
+	}
+	#logo img{
+		display: none;
+	}
 	
 }
